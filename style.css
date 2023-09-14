@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    /* outline: 2px solid red; */
 }
 
 h1 {
@@ -200,6 +201,7 @@ body {
     /* align-items: center; */
     justify-content: space-between;
     padding-top: 20px;
+    z-index: -10;
     flex-wrap: wrap;
 }
 
@@ -963,7 +965,7 @@ body {
         margin: 15px;
         transition: 0.2s ease;
         position: relative;
-        z-index: -1;
+        /* z-index: -1; */
     }
 
     #banner {
@@ -1034,8 +1036,12 @@ body {
         padding: 15px 30px;
     }
 
-    #navbar {
+    #navbar .active {
         width: 50%;
+    }
+
+    .hidden {
+        display: none !important;
     }
 
     h2 {
@@ -1048,8 +1054,10 @@ body {
 
     #up {
         /* height: 70vh; */
+        background-repeat: no-repeat;
         padding: 0 20px;
-        background-position: 55%;
+        background-size: cover;
+        background-position: 69%;
     }
 
     #features {
