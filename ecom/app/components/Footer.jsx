@@ -5,16 +5,16 @@ const Footer = () => {
     <div>
       <section id="footer" class="section-p1">
         <div class="column">
-          <img src="img/logo.png" alt="logo" style="margin-bottom: 28px;" />
+          <img src="/logo.png" alt="logo" className="mb-[28px]" />
           <h4>Contact</h4>
           <p>
-            <Strong>Address:</Strong> Abc, Xyz, India
+            <strong>Address:</strong> Abc, Xyz, India
           </p>
           <p>
-            <Strong>Phone:</Strong> +91 999xxxxx76
+            <strong>Phone:</strong> +91 999xxxxx76
           </p>
           <p>
-            <Strong>Hours:</Strong> 11:00 - 18:00, Mon-Fri
+            <strong>Hours:</strong> 11:00 - 18:00, Mon-Fri
           </p>
           <div class="follow">
             <h4>Follow Us</h4>
@@ -46,11 +46,11 @@ const Footer = () => {
           <h4>Install App</h4>
           <p>Download our app for Android and iPhone.</p>
           <div class="d-logo">
-            <img src="img/pay/app.jpg" />
-            <img src="img/pay/play.jpg" />
+            <img src="/pay/app.jpg" />
+            <img src="/pay/play.jpg" />
           </div>
           <p>Secured Payment Gateways</p>
-          <img src="img/pay/pay.png" />
+          <img src="/pay/pay.png" />
         </div>
 
         <div class="copywright">
